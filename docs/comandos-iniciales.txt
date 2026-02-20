@@ -1,0 +1,14 @@
+npm i --save @nestjs/config
+
+npm install --save @nestjs/typeorm typeorm pg
+
+nest generate res modules/admin/users
+
+npm install dotenv
+
+nest generate res modules/admin/roles
+
+npm install bcrypt
+
+
+npm install --save @nestjs/swagger
